@@ -1,12 +1,13 @@
-%h1 
-  cd into this file's folder:
-%p 
+%h1 Rails
+%h2 Where's the folder?
+%h3 
   = @question
 
-%form{:action=>"/", :method=>"POST"}
-  %label{:for=>"POST-first"}new_rails_project$ cd
-  %textarea{:type=>"text", :name=>"filepath", :placeholder=>"filepath"}
-  %button{:type=>"submit", :value=>"Go"}Go
+.terminal
+  %form{:action=>"/", :method=>"POST"}
+    %label{:for=>"POST-first"}new_rails_project$ cd
+    %textarea{:type=>"text", :name=>"filepath", :placeholder=>"filepath"}
+    %button{:type=>"submit", :value=>"Go"}Go
 
 - if @answer
   %p
