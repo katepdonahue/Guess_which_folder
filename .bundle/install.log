@@ -1,0 +1,18 @@
+# Logfile created on 2014-01-06 21:02:21 -0500 by logger.rb/36483
+I, [2014-01-06T21:02:21.560531 #15701]  INFO -- : 0:  bond (0.4.3) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/bond-0.4.3.gemspec
+I, [2014-01-06T21:02:21.560938 #15701]  INFO -- : 0:  chunky_png (1.2.9) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/chunky_png-1.2.9.gemspec
+I, [2014-01-06T21:02:21.561209 #15701]  INFO -- : 0:  fssm (0.2.10) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/fssm-0.2.10.gemspec
+I, [2014-01-06T21:02:21.561464 #15701]  INFO -- : 0:  sass (3.2.13) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/sass-3.2.13.gemspec
+I, [2014-01-06T21:02:21.561710 #15701]  INFO -- : 0:  compass (0.12.2) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/compass-0.12.2.gemspec
+I, [2014-01-06T21:02:21.561955 #15701]  INFO -- : 0:  tilt (1.4.1) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/tilt-1.4.1.gemspec
+I, [2014-01-06T21:02:21.562201 #15701]  INFO -- : 0:  haml (4.0.4) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/haml-4.0.4.gemspec
+I, [2014-01-06T21:02:21.562448 #15701]  INFO -- : 0:  rack (1.5.2) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/rack-1.5.2.gemspec
+I, [2014-01-06T21:02:21.562734 #15701]  INFO -- : 0:  rack-protection (1.5.1) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/rack-protection-1.5.1.gemspec
+I, [2014-01-06T21:02:21.562998 #15701]  INFO -- : 0:  rack-test (0.6.2) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/rack-test-0.6.2.gemspec
+I, [2014-01-06T21:02:21.563234 #15701]  INFO -- : 0:  ripl (0.7.0) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/ripl-0.7.0.gemspec
+I, [2014-01-06T21:02:21.563473 #15701]  INFO -- : 0:  ripl-multi_line (0.3.1) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/ripl-multi_line-0.3.1.gemspec
+I, [2014-01-06T21:02:21.563707 #15701]  INFO -- : 0:  ripl-rack (0.2.0) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/ripl-rack-0.2.0.gemspec
+I, [2014-01-06T21:02:21.563941 #15701]  INFO -- : 0:  shotgun (0.9) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/shotgun-0.9.gemspec
+I, [2014-01-06T21:02:21.564178 #15701]  INFO -- : 0:  sinatra (1.4.4) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/sinatra-1.4.4.gemspec
+I, [2014-01-06T21:02:21.564407 #15701]  INFO -- : 0:  tux (0.3.0) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/tux-0.3.0.gemspec
+I, [2014-01-06T21:02:21.564631 #15701]  INFO -- : 0:  bundler (1.5.0) from /Users/katedonahue/.rvm/gems/ruby-2.0.0-p247/specifications/bundler-1.5.0.gemspec
