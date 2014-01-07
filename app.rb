@@ -1,6 +1,6 @@
 require 'bundler'
 Bundler.require
-require './lib/email'
+require './lib/game'
 
 
 class App < Sinatra::Application
