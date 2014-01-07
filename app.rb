@@ -28,7 +28,8 @@ class App < Sinatra::Application
 
   post '/' do
     @question = @@this_game.question
-    @result = (@@this_game.answer == params["filepath"])
+    @answer = @@this_game.answer
+    @result = (@answer == params["filepath"])
     haml :index
   end
  
