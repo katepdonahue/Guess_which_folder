@@ -25,6 +25,10 @@ class App < Sinatra::Application
     @question = Game.new.question
     haml :index
   end
+
+  post '/' do
+    haml :index
+  end
  
 end
 
