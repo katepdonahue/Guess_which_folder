@@ -19,9 +19,8 @@ class App < Sinatra::Application
     scss :input
   end
 
-  @@this_game = Game.new
-
   get '/' do
+    @@this_game = Game.new
     @question = @@this_game.question
     haml :index
   end
@@ -30,7 +29,6 @@ class App < Sinatra::Application
     @question = @@this_game.question
     @answer = @@this_game.answer
     @result = (@answer == params["filepath"])
-    @@this_game = Game.new
     haml :index
   end
  
