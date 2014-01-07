@@ -6,8 +6,7 @@
 .terminal
   %form{:action=>"/", :method=>"POST"}
     %label{:for=>"POST-first"}new_rails_project$ cd
-    %input{:type=>"text", :name=>"filepath", :placeholder=>"filepath"}
-    %button{:type=>"submit", :value=>"Go"}Go
+    %input{:type=>"text", :name=>"filepath", :placeholder=>"file/path"}
 
 - if @answer
   %p

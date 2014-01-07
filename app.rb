@@ -19,6 +19,8 @@ class App < Sinatra::Application
     scss :input
   end
 
+  @@this_game = nil
+
   get '/' do
     @@this_game = Game.new
     @question = @@this_game.question
