@@ -19,14 +19,15 @@ class App < Sinatra::Application
     scss :input
   end
 
-
+  @@this_game = Game.new
 
   get '/' do
-    @question = Game.new.question
+    @question = @@this_game.question
     haml :index
   end
 
   post '/' do
+    @result = (@@this_game.answer == params["filepath"])
     haml :index
   end
  
