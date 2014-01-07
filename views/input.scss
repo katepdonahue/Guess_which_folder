@@ -9,19 +9,46 @@ $font-stack: 'Droid Sans Mono', sans-serif;
 
 body {
   font-family: $font-stack;
+
+}
+
+body, html {
+  height: 100%;
 }
 
 .terminal {
   background-color: black;
   color: white;
-  width: 50%;
-  height: 50%; /*not working */
-  border-top: 10px solid lightgray;
+  width: 49%;
+  height: 60%; /*not working */
+  border-top: 27px solid lightgray;
+  box-shadow: 1px 1px black;
+  box-shadow: -1px -1px black;
   @include border-radius(5px);
-  input {
-    background-color: black;
-    color: white;
-    font-size: 1.1em;
-    border: none;
-  }
+}
+
+.close, .minimize, .maximize {
+  height: 3px;
+  width: 3px;
+  position: absolute;
+  top: 2px;
+  @include border-radius(3px);
+  background-color: red;
+}
+
+.minimize {
+  left: 7px;
+  background-color: yellow;
+}
+
+.maximize {
+  left: 12px;
+  background-color: green;
+}
+
+input {
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
+  border: none;
 }
