@@ -8,13 +8,14 @@
   %textarea{:type=>"text", :name=>"filepath", :placeholder=>"filepath"}
   %button{:type=>"submit", :value=>"Go"}Go
 
-%p
-  = @result
-%p
-  The answer was:
-  = @answer
-%p
-  you said:
-  = params["filepath"]
+- if @answer
+  %p
+    = @result
+  %p
+    The answer was:
+    = @answer
+  %p
+    you said:
+    = params["filepath"]
 
-%a{:href=>"/"}Play again.
+  %a{:href=>"/"}Play again.
