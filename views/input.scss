@@ -7,4 +7,10 @@ body {
 .terminal {
   background-color: black;
   color: white;
+  width: 50%;
+  height: 50%; /*not working */
+  textarea {
+    background-color: black;
+    color: white;
+  }
 }
