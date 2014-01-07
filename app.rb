@@ -22,6 +22,7 @@ class App < Sinatra::Application
 
 
   get '/' do
+    @question = Game.new.question
     haml :index
   end
  
